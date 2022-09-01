@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <p id="player-el"></p>
+
+        <button class="betbtn" onclick="bet1()">+$1</button>
+        <button class="betbtn" onclick="bet5()">+$5</button>
+        <button class="betbtn" onclick="bet10()">+$10</button>
+        <br>
+        <button class="resetbetbtn" onclick="resetBet()">RESET</button>
+        <br>
+        <p id="bet-el">Your Bet: $0</p>
+        <p id="message-el">Want to play a round?</p>
+        <button class="playbtn" onclick="startGame()">START GAME</button>
+        <button class="playbtn" onclick="newCard()">NEW CARD</button>
+        <button class="stopbtn" onclick="stopGame()">END TURN</button>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <p class="dealer" id="dealercards-el">Dealer Cards:</p>
+        <p class="dealer" id="dealersum-el">Dealer Sum:</p>
+
+
+        
+
+
+
+        <script src="index.js"></script>
+    </body>
+</html>

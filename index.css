@@ -1,0 +1,110 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#message-el {
+    font-style: italic;
+    background-color: ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#cards-el {
+    background-color: navy;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+#sum-el {
+    background-color: navy;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: -13px;
+}
+
+#dealercards-el {
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;   
+}
+
+#dealersum-el {
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px; 
+    margin-top: -10px;      
+}
+
+
+.playbtn {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.stopbtn {
+    color: white;
+    width: 150px;
+    background: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.betbtn {
+    color: white;
+    width: 50px;
+    background: #9999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.resetbetbtn {
+    color: white;
+    width: 160px;
+    background: #9999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+
+.dealer {
+    color: white;
+}
